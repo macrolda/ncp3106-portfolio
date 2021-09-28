@@ -694,11 +694,6 @@ img {
   {
     width: 100%;
   }
-  .works__container
-  {
-    align-items: center;
-    
-  }
 }
 
 
@@ -710,11 +705,11 @@ img {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-  .works__container,
-  .works__container2
+  .works__container
   {
-    grid-template-columns: 60px 60px;
-    align-items: center;;
+    grid-template-columns: repeat(1, 2fr);
+    align-items: center;
+    
   }
 
   .home__container 
@@ -750,6 +745,11 @@ img {
   body 
   {
     margin: 0;
+  }
+  .works__container
+  {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 
   .section 
@@ -825,8 +825,7 @@ img {
   {
     column-gap: 5rem;
   }
-  .works__container,
-  .works__container2
+  .works__container
   {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;;
